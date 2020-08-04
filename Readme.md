@@ -193,7 +193,7 @@ Eğer bir yerde <code>if-else</code> yapısını kullanmak istersek bunun için;
         @endswitch
   şeklinde bildiğimiz bir syntax yapısına sahiptir.
   
-  ![switch-yapisi](/images/switch-yapisi)
+  ![switch-yapisi](/images/switch-yapisi.jpg)
   
   <h5>Döngü Yapısı</h5>
   
@@ -221,7 +221,7 @@ Eğer bir yerde <code>if-else</code> yapısını kullanmak istersek bunun için;
     	return view('anasayfa',compact('kullanicilar'));
  Daha sonra <b>continue</b> ve <b>break</b> yapılarını kullanabilmek için şu şekilde bir senaryo oluşturalım. Eğer <code>Kullanıcı id 1 ise onu ekrana basma ve Kullanici adi 4 ise işlemi sonlandır</code> gibi bir kod yazalım.
 
-![Continue ve Break Ekran Görüntüsü](/images/continue-break-yapisi)
+![Continue ve Break Ekran Görüntüsü](/images/continue-break-yapisi.jpg)
 
 <h5>Yorum Satırı Nasıl Yapılır ? </h5>
 
