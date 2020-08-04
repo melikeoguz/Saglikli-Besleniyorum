@@ -68,4 +68,6 @@ Route mantığı ise sizin sitenizde bulunan sayfalar arasındaki yönlendirmeyi
 	 Route::get('/about', function(){
      return ""Burası About Sayfasıdır
      });
-şeklinde bir kısım yazarsanız
+şeklinde bir kısım yazarsanız aşağıdaki gibi bir görünüm elde etmiş olursunuz.
+
+![](/images/route-metinsel-dondurme.jpg)
