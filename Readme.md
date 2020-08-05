@@ -233,6 +233,8 @@ Eğer php kodu yazmak istiyorsanız kodlarınızı <code>@php</code> tagi açıp
 
 ![]()
 
+<hr>
+
 <h4>2. Gün (05.08.2020)</h4>
 
 <h5><ins>Şablon Yapısı</ins></h5>
