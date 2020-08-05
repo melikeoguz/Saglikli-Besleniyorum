@@ -232,3 +232,41 @@ Eğer bir yerde <code>if-else</code> yapısını kullanmak istersek bunun için;
 Eğer php kodu yazmak istiyorsanız kodlarınızı <code>@php</code> tagi açıp daha sonra <code>@endphp</code> arasına yazabilirsiniz. Şimdi de php satırlarının arasında <b>Html </b> kodu yazmanız gerekirse <code>$html= "....";</code> şeklinde yazmalısınız. Daha sonra bu html kodu kapatmak için <code>{!! $html !!}</code> yazmalısınız.
 
 ![]()
+
+<h4>2. Gün (05.08.2020)</h4>
+
+<h5><ins>Şablon Yapısı</ins></h5>
+
+Bu tür web geliştirme projelerinde bir adet <b>Şablon Yapısı</b> kullanılmaktadır. Bunun nedeni ise aşağıdaki fotoğrafı yorumlayarak anlayabiliriz.
+
+![Şablon Yapısı](/sablon-yapisi.jpg)
+
+Bizim birçok sayfamız olacağı için her sayfa için benim <code>footer alanı</code>  ve <code>navbar</code> eklem gerekiyor. Eğer her sayfa için bu işlemi tek tek yaparsam hem sayfa hızı etkilenir hem de gereksiz bir iş yükü yaşarız. Bunu önlemek amacıyla kendimize bir şablon oluşturmalıyız.
+
+<h5><ins>Şablon Yapısı Kullanmadan Sayfaları Oluşturma<ins></h5>
+
+Bunun için <code>web.php</code> dosyamızın içine Route ile <code>view</code> kodlarını yazmanız gerekmektedir.
+
+		Route::view('/kategori','kategori');
+        Route::view('/urun','urun');
+        Route::view('/sepet','sepet');
+Buradaki kodlarda demek istediğimiz şudur:
+<li> <i>Url'e <b>/kategori</b> eklediğimizde view dosyasının içinde bulunan <b>kategori.blade.php</b> dosyasını çalıştır. Diğer satırlarda da diğer sayfalar için bu işlemi gerçekleştir demiş olduk.</i></li></br>
+
+><b><i>Route yapısında kullanılan view özelliği php 5.5 sürümünden sonra gelmiştir</i></b>        
+
+Bu işlem gerçekleştikten sonra şimdi de <code><b>view</b></code> klasörüne <code><b>kategori.blade, urun.blade ve sepet.blade</b></code> adlı php dosyalarının oluşturulması gerekmektedir.
+
+Daha sonra .blade olan view klasörlerin içine gerekli yönlendirmelerin yapılması gerekmektedir. Bu yönlendirmeler aşağıdaki gibidir:
+
+		<a href="/">Anasayfa</a>
+<a href="/urun">Ürün</a>
+<a href="/kategori">Kategori</a>
+<a href="/sepet">Sepet</a>
+<hr>
+
+<h2 align="center">Ürün</h2>
+<hr>
+
+E Ticaret Sitesi
+
