@@ -1,6 +1,6 @@
 ## Staj Günlükleri
 
-<h5><ins>1. Gün (04.08.1998)</ins></h5>
+<h5><ins>1. Gün (04.08.2020)</ins></h5>
 
 
 <h2>E-Ticaret Sitesi Projesi</h2>
@@ -397,4 +397,10 @@ Eğer bu sorgulama yapısını kullanırsanız Query Builder, sizin yerinize <co
 Bu işlemleri aşağıdaki gife bakarak gerçekleştirebilirsiniz.
 
 ![Query Builder Kullanarak Veri Ekleme](/gifs/Query-builder-yapisi.gif)
+
+<hr>
+<h3><code>3.Gün (06.08.2020)</code></h3>
+
+Query Builder Yapısı
+
 
