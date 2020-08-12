@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb7b50f3-10de-44b2-b4cb-293f1c7be02f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project/IdeHelperServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Project - Kısayol.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/KategoriController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/KullaniciController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/OdemeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/SepetController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/SiparisController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/UrunController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Mail/KullaniciKayitMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Models/Kategori.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Models/Kullanici.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Models/Sepet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Models/SepetUrun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Models/Urun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Models/UrunDetay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/config/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_07_141552_create_kategori_urun_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_10_102342_create_urun_detay_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_11_080457_create_kullanici_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_12_130649_create_sepet_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_12_132856_create_sepet_urun_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/seeds/KategoriTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/database/seeds/UrunTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/public/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/assets/sass/commerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/arama.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/errors/404.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/errors/model.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/kategori.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/kullanici/kaydol.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/kullanici/oturumac.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/kullanici/sifre.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/alert.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/mail/kullanici_kayit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/odeme.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/sepet.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/siparis.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/siparisler.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/urun.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project" beforeDir="false" afterPath="$PROJECT_DIR$/Project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Project/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_07_073837_create_kategori_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/migrations/2020_08_07_125704_create_urun_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/assets/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/assets/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/anasayfa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Project/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="sagliklibesleniyorum.test" id="b3f65f17-64b0-4afb-bc57-fb2178330ae4" name="e-ticaret" port="8085" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Project/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Project/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/Project/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Project/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Project/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Project/vendor/gloudemans/shoppingcart" />
+      <path value="$PROJECT_DIR$/Project/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Project/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Project/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Project/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Project/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Project/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Project/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Project/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Project/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Project/vendor/composer" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Project/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Project/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/Project/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Project/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Project/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Project/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Project/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Project/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Project/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Project/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/Project/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Project/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Project/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Project/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Project/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Project/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/Project/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Project/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpdocumentor/reflection-docblock" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1g0jagEe3wLtFiSRcgjOL2PcP6s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SaglikliBesleniyorum" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" server_name="e-ticaret">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" server_name="e-ticaret">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb7b50f3-10de-44b2-b4cb-293f1c7be02f" name="Default Changelist" comment="" />
+      <created>1597258468199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597258468199</updated>
+      <workItem from="1597258469249" duration="298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="23" key="#Servers" timestamp="1597258699141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="23" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1597258699141" />
+    <state x="137" y="11" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597258766838">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="11" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597258766838" />
+  </component>
+</project>
