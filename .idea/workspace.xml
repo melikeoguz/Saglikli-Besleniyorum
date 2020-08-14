@@ -73,7 +73,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/Project/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -185,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Project" />
   </component>
   <component name="RunManager">
     <configuration name="SaglikliBesleniyorum" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" server_name="e-ticaret">
@@ -204,6 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597258468199</updated>
       <workItem from="1597258469249" duration="298000" />
+      <workItem from="1597301345746" duration="17000" />
     </task>
     <servers />
   </component>
@@ -219,5 +220,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="11" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597258766838" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1597301361335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597301361335" />
   </component>
 </project>
